@@ -18,7 +18,6 @@ function MeetupItem(props) {
           <h3>{props.title}</h3>
           <address>{props.address}</address>
         </div>
-
         <div className={classes.actions}>
           <button onClick={showDetaiHandler}>Show Details</button>
         </div>
